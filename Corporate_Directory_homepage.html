@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+<meta charset="UTF-8">
+</head>
+<body>
+    <style>
+        p{
+            color:white
+        }
+        .header{
+            justify-content: center;
+            position: static;
+            text-align: center;
+            background-color: rgb(28, 89, 105);
+            color:white;
+        }
+         .box-button {
+           height: 120px;
+           width: 220px;
+           background-color: rgb(34, 91, 105);
+           border-radius: 10px;
+           position:static;
+                   }
+         
+        .button-row {
+          display: flex;  /* Puts buttons in a row */
+          justify-content: center; /* Center horizontally (optional) */
+          margin-bottom: 50px; /* Space between rows */
+         gap:10px;
+        }
+  
+        .bottom-button{
+       display: flex;  /* Puts buttons in a row */
+       justify-content: center; /* Center horizontally (optional) */
+      margin-left: 10px; /* Space between rows */
+      align-content: center;
+}
+body{
+    background-color: rgb(116, 207, 232);
+ }
+
+
+    </style>
+    <h1 class="header">Corporate Directory</h1><br><br>
+   <div class="button-row" ><button class="box-button"><a href="Corporate_Directory.html"><p>Add New</p></a></button>
+    <br><br>
+    <button class="box-button"><p>Search</p></button>
+    <br><br></div>
+  <div class="bottom-button"><button class ="box-button"><p>Delete A Contact </p></button>
+    </div>
+</body>
+</html>
